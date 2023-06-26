@@ -1,5 +1,6 @@
 
 import './App.css'
+import Effect from './Hooks/Effects/Effect'
 import State from './Hooks/State/State'
 
 function App() {
@@ -7,7 +8,12 @@ function App() {
 
   return (
     <>
-     <State />
+
+    <Effect />
+
+
+
+    {/* <State />/*/}
 
     
     </>
